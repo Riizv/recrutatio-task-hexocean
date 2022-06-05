@@ -1,6 +1,9 @@
 # Dishes ordering
 
 _Recrutation task_
+_Working time: 3h_
+_Node version: 16.14.2_
+_npm version: 8.11.0_
 
 ## Get started
 
