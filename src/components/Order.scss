@@ -1,0 +1,41 @@
+.form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form-wrapper {
+    height: 25rem;
+    width: 15rem;
+    color: white;
+    padding: 1rem;
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    form {
+      div{
+        margin-bottom: 0.5rem;
+        label{
+          font-weight: bold;
+        }
+        input, select {
+          width: 100%;
+          border: 0;
+          border-radius: 1rem;
+          box-sizing: border-box;
+          padding: 0.5rem 0.7rem;
+        }
+        input[type=submit]{
+          font-weight: bold;
+          margin-top: 0.5rem;
+          cursor: pointer;
+          opacity: 0.9;
+          background-color: #000;
+          color: white;
+        }
+      }
+      
+    }
+  }
+}

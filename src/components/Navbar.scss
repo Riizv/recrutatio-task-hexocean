@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  nav {
+    margin: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #6456bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 4px #263f73;
+    .nav-wrapper {
+      margin: 0;
+      height: 100%;
+      width: 14rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      button {
+        border: none;
+        background-color: rgba($color: #fff, $alpha: 0);
+        font-size: larger;
+        transition: all 300ms;
+        color: #94e1f2;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
