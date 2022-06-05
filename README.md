@@ -4,6 +4,7 @@
 -Working time: 3h
 -Node version: 16.14.2
 -npm version: 8.11.0
+-https://github.com/Riizv/recrutatio-task-hexocean.git
 
 ## Get started
 
